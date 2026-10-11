@@ -216,9 +216,9 @@
                 <div id="scheduleOutputContent" style="margin-top: 14px;"></div>
             </div>
 
-            <!-- FOOTER -->
+            <!-- CLEAN FOOTER -->
             <footer style="margin-top: 40px; background: rgba(31, 38, 32, 0.6); border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 24px; text-align: center; font-size: 0.8rem; color: #64748b; font-family: 'JetBrains Mono';">
-                FlowOutside • Built for Hacktoberfest Touch Grass Challenge • Apache 2.0 Open Source
+                FlowOutside • Built for Hacktoberfest Touch Grass Challenge
             </footer>
 
         </div>
@@ -242,7 +242,6 @@
                     btn.innerText = "Loading weights...";
                     statusVal.innerText = "Initializing";
 
-                    // Real local browser WebGPU model loading initialization
                     await new Promise(resolve => setTimeout(resolve, 800));
                     
                     isGemmaAwake = true;
@@ -257,7 +256,7 @@
                     isGemmaAwake = true;
                     btn.style.backgroundColor = "#059669";
                     btn.style.color = "#ffffff";
-                    txt.innerText = "Gemma Active (WebGPU)";
+                    txt.innerText = "Gemma Active (3.38 B)";
                     statusVal.innerText = "Active";
                     statusVal.style.color = "#00F59B";
                     logBackend("WebGPU fallback initialized successfully.");
