@@ -50,5 +50,5 @@ Because Gemma runs locally in your browser workspace via WebGPU, your daily to-d
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/maitriii08/FlowOutside-.git](https://github.com/maitriii08/FlowOutside-.git)
-   cd FlowOutside-
+   git clone [https://github.com/maitriii08/FlowOutside.git](https://github.com/maitriii08/FlowOutside.git)
+   cd FlowOutside
